@@ -1,4 +1,4 @@
-name: 'Cancel If Not Changed'
+name: 'cancel-if-unchanged'
 description: 'Cancel Workflow if no recent Commits in Git Log'
 inputs:
   actor:
