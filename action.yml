@@ -1,0 +1,12 @@
+name: 'Cancel If Not Changed'
+description: 'Cancel Workflow if no recent Commits in Git Log'
+inputs:
+  actor:
+    description: 'The user that triggered the workflow'
+    default: ${{ github.actor }}
+outputs:
+  result:
+    description: 'The result of the action execution'
+runs:
+  using: 'node12'
+  main: 'pkg/index.js'
