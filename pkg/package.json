@@ -1,0 +1,21 @@
+{
+  "name": "cancelifnotchangedaction",
+  "collaborators": [
+    "Bjoern Quentin <bjoern.quentin@grandcentrix.net>"
+  ],
+  "description": "GitHub Action to cancel the current workflow if the git log doesn't include commits for a given time",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjoernQ/cancelifnotchangedaction"
+  },
+  "files": [
+    "index_bg.wasm",
+    "index.js",
+    "index_bg.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts"
+}
