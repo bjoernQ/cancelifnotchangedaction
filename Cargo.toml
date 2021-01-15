@@ -19,6 +19,7 @@ default = ["console_error_panic_hook"]
 console_error_panic_hook = { version = "0.1.6", optional = true }
 js-sys = "0.3.46"
 wasm-bindgen = "0.2.69"
+actions-toolkit-sys = "0.3.1"
 
 [profile.release]
 lto = true
