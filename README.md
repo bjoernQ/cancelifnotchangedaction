@@ -1,8 +1,4 @@
-# WORK IN PROGRESS - not doing anything yet
-
-# Cancel If Not Changed Action
-
-A GitHub action written in Rust.
+# A GitHub JS-Action written in Rust.
 
 This is heavily based on https://github.com/peter-evans/rust-wasm-action
 
